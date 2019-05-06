@@ -15,6 +15,14 @@ const EventSchema = new mongoose.Schema({
     type: String,
     default: constants.event_picture
   },
+  beginDate: {
+    type: Date,
+    default: Date.now
+  },
+  endDate: {
+    type: Date,
+    default: Date.now
+  },
   createdAt: {
     type: Date,
     default: Date.now
@@ -23,7 +31,7 @@ const EventSchema = new mongoose.Schema({
     type: Date,
     default: Date.now
   },
-  userId: {
+  login: {
     type: String,
     default: 'admin'
   }

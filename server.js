@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 // iniciando o banco de dados
-mongoose.connect(constants.connectionstring_prod, { useNewUrlParser: true })
+mongoose.connect(constants.connectionstring_dev, { useNewUrlParser: true })
 
 requireDir('./src/models')
 

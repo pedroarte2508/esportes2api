@@ -19,6 +19,8 @@ routes.put('/players/:id', PlayerController.update)
 routes.delete('/players/:id', PlayerController.delete)
 routes.post('/players', PlayerController.create)
 
+routes.get('/teams/:id/players', PlayerController.byTeam)
+
 routes.get('/events', EventController.index)
 routes.get('/events/:id', EventController.details)
 routes.put('/events/:id', EventController.update)
