@@ -5,7 +5,7 @@ const Constants = {
     'https://www.ekahiornish.com/wp-content/uploads/2018/07/default-avatar-profile-icon-vector-18942381.jpg',
   event_picture:
     'https://images.vexels.com/media/users/3/153916/isolated/lists/c10e8d00b250c7051474d6b4c08ee3a6-icone-de-traco-colorido-trofeu-esportes.png',
-  dev_url: 'http://192.168.1.14:3333',
+  dev_url: 'http://192.168.0.24:3333',
   prod_url: 'http://heroku.esportesapi.com',
   debug: true,
   connectionstring_dev:
