@@ -6,7 +6,7 @@ const Constants = {
   event_picture:
     'https://images.vexels.com/media/users/3/153916/isolated/lists/c10e8d00b250c7051474d6b4c08ee3a6-icone-de-traco-colorido-trofeu-esportes.png',
   dev_url: 'http://192.168.0.24:3333',
-  prod_url: 'http://heroku.esportesapi.com',
+  prod_url: 'https://heroku.esportesapi.com',
   debug: true,
   connectionstring_dev:
     'mongodb://127.0.0.1:27017/esportesdev2?retryWrites=true', // o serviço local mongo deve estar rodando
